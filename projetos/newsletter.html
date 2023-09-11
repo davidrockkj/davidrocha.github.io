@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="icon" type="image/x-icon" href="./newsletter/assets/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./newsletter/style.css">
+</head>
+<body>
+    
+    <div class="main-content">
+        
+        <div class="aside-left">
+            <div class="control">
+                <h1>Stay updated!</h1>
+                <p id="description">Join 60.000+ product managers receiving monthly updates on:</p>
+
+                <div class="lists">
+                    <div class="list">
+                        <img id="icon-topic" src="./newsletter/assets/images/icon-list.svg">
+                        <p>Product discovery and building what matters</p>
+                    </div>
+        
+                    <div class="list">
+                        <img id="icon-topic" src="./newsletter/assets/images/icon-list.svg">
+                        <p>Measuring to ensure updates are a success</p>
+                    </div>
+        
+                    <div class="list">
+                        <img id="icon-topic" src="./newsletter/assets/images/icon-list.svg">
+                        <p>And much more!</p>
+                    </div>
+                </div>
+
+                <form action="" id="#myForm">
+                    <div class="input">
+                        <span id="error"></span>
+                        <label for="email" id="input-email">E-mail address</label>
+                        <input tabindex="1" type="email" id="email" onblur="isitEmpty()" oninput="vejaAi()" placeholder="email@company.com">
+        
+                        <button type="button" tabindex="2" id="btn">Subscribe to monthly newsletter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="aside-right">
+            <div class="background-image">
+
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="modal-container" id="myModal">
+        <div class="modal-content">
+            <div class="control-modal">
+                <img src="./newsletter/assets/images/icon-success.svg">
+                <h1>Thanks for subscribing!</h1>
+                <p id="feedback-message"></p>
+                <button id="btn-modal" >Dismiss message</button>
+            </div>
+        </div>
+    </div>
+
+        <script src="./newsletter/script.js"></script>
+
+</body>
+</html>
