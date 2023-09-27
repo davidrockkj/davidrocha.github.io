@@ -1,0 +1,3 @@
+[submodule "projetos/space-tourism-website"]
+	path = projetos/space-tourism-website
+	url = https://github.com/davidrockkj/space-tourism-website.git
